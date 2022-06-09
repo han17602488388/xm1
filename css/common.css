@@ -1,0 +1,360 @@
+.sec1170 {
+    /*给所有的大的区块一个统一的样式*/
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.topbox {
+    /* 想谁全屏灰*/
+    width: 100%;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+}
+
+body {
+    font-size: 12px;
+    color: #999;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: #FE8C00;
+} */
+
+.chengse {
+    color: #FE8C00;
+}
+
+.fl li {
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.fl i {
+
+    font-size: 10px;
+}
+
+.fr li {
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top-a li {
+    line-height: 30px;
+}
+
+.fr .po {
+    width: 82px;
+    display: inline-block;
+    height: 21px;
+    background: url(../img/56adfd42d480c61f333c6a02220d7f7c.png) no-repeat;
+    background-size: 81px 21px;
+    position: relative;
+    top: 6px;
+    left: -2px;
+}
+
+.top-a li a {
+    text-align: center;
+}
+
+.top li:hover {
+    background-color: #Fff;
+}
+
+.fl .li1 a {
+
+    background: #F4F4F4;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.fr .lia:hover {
+    background-color: #fff;
+}
+
+
+.toggleli {
+    /*表示一个有下拉内容的li*/
+    position: relative;
+}
+
+.togglea {
+    /*表示一个有下拉内容的a*/
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    /* 覆盖同位置的元素 */
+    height: 30px;
+    border-left: 1px solid transparent;
+    /*transparent表示透明的*/
+    border-right: 1px solid transparent;
+    /*border-left与border-right设置左右间距*/
+    padding: 0 10px 0 10px;
+
+}
+
+/*获取焦点时： 给当前的li添加一个类 on
+1.改变a标记的背景色
+2.把togglemenu显示出来
+3.更改手机图片 雪碧图
+4.更改三角形
+*/
+.fel {
+    width: 68px;
+}
+
+.togglemenu {
+    /*表示下拉内容*/
+    display: none;
+    /*默认隐藏*/
+    background: #fff;
+    position: absolute;
+
+    left: 0px;
+    white-space: nowrap;
+    /*不要换行*/
+    border: 1px solid #ddd;
+    /* padding: 0 10px 10px 10px; */
+    z-index: 3;
+}
+
+.xiala {
+    width: 800px;
+    height: 200px;
+}
+
+.xiala li img {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.xiala li span {
+    padding-left: 17px;
+}
+
+.xiala li {
+    float: left;
+    /* width: 80px;
+    height: 80px; */
+    margin: 16px;
+}
+
+.user .fel {
+    right: 10px;
+    left: auto;
+}
+
+.yu {
+    border-top: 1px solid #E5E5E5;
+    width: 744px;
+    margin-top: 140px;
+    margin-left: 23px;
+}
+
+.fle {
+    left: -38px;
+    right: auto;
+}
+
+.fle a {
+    text-align: center;
+}
+
+
+
+.on .togglea {
+    /*1.改变a标记的背景色，边框*/
+    background: #fff;
+    /* border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd; */
+}
+
+.on .togglemenu {
+    /*2.把togglemenu显示出来*/
+    display: block;
+}
+
+.wangxiao li a {
+   padding: 0 10px;
+}
+
+.wangxiao li {
+    height: 40px;
+    font-size: 14px;
+}
+
+.wangxiao li .tu1 {
+
+    background: url(../img/faabb6228428c7d1bed4cc4db8298167.png) 0px -392px no-repeat;
+    width: 18px;
+    height: 18px;
+margin-bottom: -5px;
+    display: inline-block;
+}
+
+.wangxiao li .tu2 {
+    background: url(../img/faabb6228428c7d1bed4cc4db8298167.png) 0px -28px no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.wangxiao li .tu3 {
+    background: url(../img/faabb6228428c7d1bed4cc4db8298167.png) 0px -588px no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.wangxiao li .tu4 {
+    background: url(../img/faabb6228428c7d1bed4cc4db8298167.png) 0px -448px no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.wangxiao li .tu5 {
+    background: url(../img/faabb6228428c7d1bed4cc4db8298167.png) 0px -1036px no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -5px;
+    
+    display: inline-block;
+}
+
+.datupian {
+    width: 100%;
+}
+
+.datupian .tupian {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------顶部的搜索  */
+.logo {
+    height: 70px;
+}
+
+.logobox {
+    width: 335px;
+    height: 55px;
+}
+
+.sec980 .logobox {
+    width: 265px;
+}
+
+
+.searchbox {
+    width: 488px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.promise {
+    width: 175px;
+    height: 45px;
+}
+
+.logoimg img{
+    
+    width: 210px;
+  height: 104px;
+    display: inline-block;
+    
+}
+
+.logobox h2 {
+    margin-top: 15px;
+}
+
+.searchbox form {
+    width: 487px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #49b849;
+    overflow: hidden;
+}
+
+.searchbox form button {
+    float: right;
+    background: #49b849;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    
+}
+
+.searchbox form div {
+    width: 62px;
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+
+.searchbox form input {
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    width: 324px;
+    outline-width: 0;
+    /*去掉input蓝色外边框*/
+}
+
+.searchbox ul {
+    margin-top: 15px;
+}
+
+.searchbox li {
+    float: left;
+    margin: 0 7px;
+}
+.promise{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.zuijin{
+    width: 136px;
+    height: 40px;
+    float: left;
+    border-radius: 50px;
+    border: 1px solid #E5E5E5;
+    margin-left: 10px;
+}
+.zuijin a{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.zuijin a b{
+    padding-left: 30px;
+}
+/*-------------------------------------------------------顶部的搜索 end  */
